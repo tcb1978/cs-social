@@ -42,9 +42,9 @@ const User: FC<UserProps> = async ({
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <main className="flex min-h-screen flex-col items-center gap-4 p-24">
-        <h1 className="text-6xl font-bold">{first} {last}</h1>
-        <section className='w-full'>
+      <main className='flex min-h-screen flex-col items-center gap-4 p-24'>
+        <h1 className='text-6xl font-bold'>{first} {last}</h1>
+        <section className='w-full flex justify-center gap-4 flex-wrap'>
           {user ? (
             <UserCard user={user} />
           ) : null}

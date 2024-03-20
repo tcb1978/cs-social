@@ -31,7 +31,7 @@ const Users: FC<UsersProps> = async ({
       </Breadcrumb>
       <main className="flex min-h-screen flex-col items-center gap-4 p-24">
         <h1 className="text-6xl font-bold">{NavigationLabel.Users}</h1>
-        <section className='flex flex-col items-center justify-between gap-4'>
+        <section className='w-full flex justify-center gap-4 flex-wrap'>
           <UsersList users={users} />
         </section>
       </main>
