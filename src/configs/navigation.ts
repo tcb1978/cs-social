@@ -1,4 +1,5 @@
 export enum NavigationLabel {
+  Landing = "Landing",
   Dashboard = "Dashboard",
   Users = "Users",
   User = "User",
@@ -8,6 +9,7 @@ export enum NavigationLabel {
 }
 
 export enum NavigationHref {
+  Landing = "/",
   Dashboard = "/dashboard",
   Users = "/users",
   Friends = "/friends",
