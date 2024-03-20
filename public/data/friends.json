@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "username": "john_doe",
+      "name": {
+        "first": "John",
+        "last": "Doe"
+      },
+      "email": "john@example.com",
+      "avatarURL": "https://example.com/avatar/john_doe.jpg"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "name": {
+        "first": "Jane",
+        "last": "Smith"
+      },
+      "email": "jane@example.com",
+      "avatarURL": "https://example.com/avatar/jane_smith.jpg"
+    },
+    {
+      "id": 3,
+      "username": "jim_brown",
+      "name": {
+        "first": "Jim",
+        "last": "Brown"
+      },
+      "email": "jim@example.com",
+      "avatarURL": "https://example.com/avatar/jim_brown.jpg"
+    },
+    {
+      "id": 4,
+      "username": "jill_white",
+      "name": {
+        "first": "Jill",
+        "last": "White"
+      },
+      "email": "jill@example.com",
+      "avatarURL": "https://example.com/avatar/jill_white.jpg"
+    },
+    {
+      "id": 5,
+      "username": "jack_green",
+      "name": {
+        "first": "Jack",
+        "last": "Green"
+      },
+      "email": "jack@example.com",
+      "avatarURL": "https://example.com/avatar/jack_green.jpg"
+    },
+    {
+      "id": 6,
+      "username": "jessica_black",
+      "name": {
+        "first": "Jessica",
+        "last": "Black"
+      },
+      "email": "jessica@example.com",
+      "avatarURL": "https://example.com/avatar/jessica_black.jpg"
+    },
+    {
+      "id": 7,
+      "username": "james_white",
+      "name": {
+        "first": "James",
+        "last": "White"
+      },
+      "email": "james@example.com",
+      "avatarURL": "https://example.com/avatar/james_white.jpg"
+    },
+    {
+      "id": 8,
+      "username": "jennifer_green",
+      "name": {
+        "first": "Jennifer",
+        "last": "Green"
+      },
+      "email": "jennifer@example.com",
+      "avatarURL": "https://example.com/avatar/jennifer_green.jpg"
+    },
+    {
+      "id": 9,
+      "username": "jason_black",
+      "name": {
+        "first": "Jason",
+        "last": "Black"
+      },
+      "email": "jason@example.com",
+      "avatarURL": "https://example.com/avatar/jason_black.jpg"
+    }
+  ]
