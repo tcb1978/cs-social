@@ -30,14 +30,13 @@ const UserCard: FC<UserCardProps> = ({
             ) : null}
           </AvatarFallback>
         </Avatar>
-        <CardTitle>
-          {user.name.first ? (
-            <p>{user.name.first}</p>
-          ) : null}
-          {user.name.last ? (
-            <p>{user.name.last}</p>
-          ) : null}
-        </CardTitle>
+
+        {user.name.first && user.name.last ? (
+          <CardTitle>
+            <p>{user.name.first} {user.name.last}</p>
+          </CardTitle>
+        ) : null}
+
       </CardHeader>
       <CardContent className='flex flex-col gap-1'>
         {user.username ? (
