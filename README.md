@@ -14,6 +14,12 @@ Shadcn React Components: UI components from Shadcn library (https://ui.shadcn.co
 
 ## Getting Started
 
+Install dependencies
+
+```bash
+npm i
+```
+
 First, run the development server:
 
 ```bash
