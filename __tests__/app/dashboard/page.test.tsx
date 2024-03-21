@@ -7,7 +7,7 @@ jest.mock('@/services/users/getAuthenticatedUser');
 
 describe('Page Component', () => {
   it('should render the AuthenticatedUserCard component when an authenticated user is present', async () => {
-    (getAuthenticatedUser as jest.Mock<Promise<any>>).mockResolvedValue({
+    (getAuthenticatedUser as unknown as jest.Mock<Promise<any>>).mockResolvedValue({
       username: 'testUser',
       name: { first: 'Test', last: 'User' },
     });
@@ -33,7 +33,6 @@ describe('Page Component', () => {
     render(<Page />);
 
     const navigationComponent = screen.getByText(/Landing/i);
-
     expect(navigationComponent).toBeInTheDocument();
   });
 });
